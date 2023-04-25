@@ -1,0 +1,530 @@
+/* desktop */
+@media screen and (min-width: 1300px) {
+  header div {
+    width: 1170px;
+  }
+
+  nav div {
+    width: 1170px;
+  }
+
+  #box02 div {
+    width: 1170px;
+  }
+
+  #box08 .gallery {
+    width: 1300px;
+  }
+
+  #box08 div#view {
+    width: 1300px;
+  }
+}
+
+@media screen and (max-width: 1299x) and (min-width: 1170px) {
+  header div {
+    width: 1170px;
+  }
+
+  nav div {
+    width: 1170px;
+  }
+
+  #box02 div {
+    width: 1170px;
+  }
+
+  #box08 .prev {
+    position: absolute;
+    left: 100px;
+    top:50%;
+  }
+  
+  #box08 .next {
+    position:absolute;
+    right:20px;
+    top:50%;
+  }
+}
+
+@media screen and (max-width: 1169x) and (min-width: 980px) { 
+  #box08 .prev {
+    position: absolute;
+    left:50px;
+    top:50%;
+  }
+  
+  #box08 .next {
+    position:absolute;
+    right:20px;
+    top:50%;
+  }
+}
+
+
+/* tablet */
+@media screen and (max-width: 979px) and (min-width: 580px) {
+  /* header */
+  header div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .btn {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    left: 20px;
+    top: 28px;
+    display: block;
+  }
+
+  header form {
+    display: none;
+  }
+
+  /* nav */
+  nav {
+    position: fixed;
+    /* left: 0; */
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding-top: 20vh;
+    z-index: 200;
+  }
+
+  nav ul {
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav ul li a {
+    display: block;
+    line-height: 50px;
+  }
+
+  nav .close {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    top: 38px;
+    left: 170px;
+  }
+
+  /* #box01 */
+  .swiper .no01 {
+    background: url(../images/tab_banner01.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  .swiper .no02 {
+    background: url(../images/tab_banner02.jfif) no-repeat center top;
+    background-size: cover;
+  }
+
+  .swiper .no03 {
+    background: url(../images/tab_banner03.jfif) no-repeat center top;
+    background-size: cover;
+  }
+
+  .swiper .no04 {
+    background: url(../images/tab_banner04.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  .swiper .no05 {
+    background: url(../images/tab_banner05.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  .swiper .no06 {
+    background: url(../images/tab_banner06.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  /* #box02 */
+  #box02 .AS {
+    display: block;
+    text-align: center;
+  }
+
+  #box02 .GHUB {
+    display: block;
+    text-align: center;
+  }
+
+  #box02 .lightSync {
+    display: block;
+    text-align: center;
+  }
+
+  /* #box03 */
+  #box03 h3 {
+    padding-top: 100px;
+  }
+
+  /* #box05 */
+  #box05 h3 {
+    padding-top: 50px;
+  }
+
+  #box05 #gallery .all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #box05 #gallery figure {
+    padding: 0 50px;
+  }
+
+  #box05 #gallery img {
+    width: 100%;
+  }
+
+  #modal section {
+    margin-left: -300px;
+    margin-top: -200px;
+    width: 600px;
+  }
+
+  #modal section figure img{
+    width: 200px;
+  }
+  
+  #modal section div {
+    justify-content: center;
+  }
+  
+  #modal section ul {
+    width: 500px;
+  }
+  
+  #modal section ul li {
+    padding-top: 20px;
+  }
+
+  /* #box06 */
+  #box06 div #gallery .all {
+    margin: 0 auto;
+    width: 93vw;
+    flex-wrap: wrap;
+  }
+
+  #box06 #gallery .all figure {
+    width: 30vw;
+    margin-bottom: 25px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  footer li {
+    padding: 5px;
+    margin-top: 30px;
+    width: 32px;
+  }
+
+}
+
+  /* mobile */
+  @media screen and (max-width: 579px) {
+    /* header */
+    header div {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header .btn {
+      position: absolute;
+      color: #fff;
+      font-size: 35px;
+      left: 20px;
+      top: 28px;
+      display: block;
+    }
+
+    header form {
+      display: none;
+    }
+
+    /* nav */
+    nav {
+      position: fixed;
+      /* left: 0; */
+      left: 100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      box-sizing: border-box;
+      padding-top: 20vh;
+      z-index: 200;
+    }
+
+    nav ul {
+      display: block;
+      width: 325px;
+      margin: 0 auto;
+    }
+
+    nav ul li a {
+      display: flex;
+      justify-content: center;
+      line-height: 50px;
+    }
+
+    nav .close {
+      font-size: 20px;
+      color: #fff;
+      display: flex;
+      position: absolute;
+      top: 38px;
+      right: 38px;
+    }
+
+    /* #box01 */
+    .swiper .no01 {
+      background: url(../images/tab_banner01.png) no-repeat center top;
+      background-size: cover;
+    }
+
+    .swiper .no02 {
+      background: url(../images/tab_banner02.jfif) no-repeat center top;
+      background-size: cover;
+    }
+
+    .swiper .no03 {
+      background: url(../images/tab_banner03.jfif) no-repeat center top;
+      background-size: cover;
+    }
+
+    .swiper .no04 {
+      background: url(../images/tab_banner04.png) no-repeat center top;
+      background-size: cover;
+    }
+
+    .swiper .no05 {
+      background: url(../images/tab_banner05.png) no-repeat center top;
+      background-size: cover;
+    }
+
+    .swiper .no06 {
+      background: url(../images/tab_banner06.png) no-repeat center top;
+      background-size: cover;
+    }
+
+    /* #box02 */
+    #box02 .AS {
+      display: block;
+      text-align: center;
+    }
+
+    #box02 .AS img {
+      width: 100%;
+    }
+
+    #box02 .AS dt {
+      font-size: 20px;
+    }
+
+    #box02 .AS dd {
+      font-size: 15px;
+    }
+
+    #box02 .GHUB {
+      display: block;
+      text-align: center;
+    }
+
+    #box02 .GHUB img {
+      width: 100%;
+    }
+
+    #box02 .GHUB dt {
+      font-size: 20px;
+    }
+
+    #box02 .GHUB dd {
+      font-size: 15px;
+    }
+
+    #box02 .lightSync {
+      display: block;
+      text-align: center;
+    }
+
+    #box02 .lightSync img {
+      width: 100%;
+    }
+
+    #box02 .lightSync dt {
+      font-size: 20px;
+    }
+
+    #box02 .lightSync dd {
+      font-size: 15px;
+    }
+
+    /* #box03 */
+    #box03 ul li {
+      width: 33.33333%;
+      transform: scale(1);
+    }
+
+    #box03 ul li img:hover {
+      transform: none;
+    }
+
+    #box03 .white {
+      background-color: rgb(75, 0, 161);
+    }
+
+    #box03 .black {
+      background-color: rgb(75, 0, 161);
+    }
+
+    #box03 .gray {
+      background-color: rgb(75, 0, 161);
+    }
+
+    /* #box04 */
+
+    #box04 dd {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    #box04 dd ul {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #box04 dd li {
+      margin: 20px;
+      width: 100%;
+    }
+
+    /* #box05 */
+    #box05 h3 {
+      padding-top: 50px;
+    }
+
+    #box05 #gallery .all {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #box05 #gallery figure {
+      padding: 0 50px;
+    }
+
+    #box05 #gallery img {
+      width: 100%;
+    }
+
+    #modal section {
+      margin-left: -150px;
+      margin-top: -200px;
+      width: 300px;
+    }
+  
+    #modal section figure img{
+      width: 200px;
+    }
+    
+    #modal section div {
+      justify-content: center;
+    }
+    
+    #modal section ul {
+      width: 500px;
+    }
+    
+    #modal section ul li {
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    /* #box06 */
+    #box06 div #gallery .all {
+      margin: 0 auto;
+      width: 93vw;
+      flex-wrap: wrap;
+    }
+
+    #box06 #gallery .all figure {
+      width: 30vw;
+      margin-bottom: 25px;
+    }
+
+    /* #box07 */
+    #box07 div ul {
+    width:80vw;
+    right: 10vw;
+    }
+
+    #box07 li:nth-child(2) {
+      width: 90%;
+    }
+
+    /* #box08 */
+    #box08 .gallery {
+      width: 100vw;
+      position: relative;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    #box08 div#view{
+      width: 90vw;
+      margin: 0 auto;
+    }
+
+    #box08 ul{
+      display: flex;
+      flex-wrap: wrap;
+      width: 720vw;
+    }
+
+    #box08 ul li{
+      width: 70vw;
+      padding: 10vw;
+      text-align: center;
+    }
+
+    /* footer */
+    footer {
+      background-color: #000;
+      color: #fff;
+      height: 100px;
+      position: none;
+    }
+
+    footer > small {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: none;
+    }
+
+    footer ul {
+      display: none;
+    }
+  }
